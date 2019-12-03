@@ -178,17 +178,17 @@ The idea of the parameterfile is to have a proofing instance of which parameters
 
 The config file is the main configuration file to adjust all the required parameters wihtin the runtime.
 
-#### Machine
+A. Machine
   1. machineID = Is the ID or the identifier of the machine that is also used within the topic
   2. prefix = If there is a prefix e.g. Costumer name or machine line Number etc.
 
-#### MQTT
+B. MQTT
   1. broker = The broker the machine and the microserver connects to
   2. port = The port that is used, standart is 1883 if unsecure
   3. user = The user on the broker, keep empty if not configured
   4. password = The password on the broker, keep empty if not configured
 
-#### C8YMQTT
+C. C8YMQTT
   1. tenant = This is the tenant URL that should display the data
   2. tenantID = Your can get your Tenant ID from your administrator, it starts with "t", e.g. t1231231235
   3. user = Tenat User start with your ID and a backslah, followd by user, e.g. t2131324124/myuser
